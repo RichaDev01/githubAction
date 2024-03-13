@@ -1,0 +1,9 @@
+name: dummy
+on: push
+jobs:
+  myjob:
+     runs-on: ubuntu-latest
+     steps:
+       - name: my-stepp
+         run: echo "Hello everyone"
+  
